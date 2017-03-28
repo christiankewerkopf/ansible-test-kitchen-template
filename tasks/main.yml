@@ -1,4 +1,1 @@
 ---
-  - include: test.yml
-    tags: ['test']
-    when: role == "test"
