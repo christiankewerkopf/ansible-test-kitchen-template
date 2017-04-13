@@ -1,0 +1,6 @@
+.kitchen
+.DS_Store
+*.tar.gz
+*.deb
+*.rpm
+files/binaries/*
