@@ -2,4 +2,4 @@
 - name: provisioning
   hosts: test-kitchen
   roles:
-    - rolename
+    - ansible-role-template
