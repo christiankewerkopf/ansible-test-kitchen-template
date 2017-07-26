@@ -9,12 +9,12 @@ platforms:
       box: puppetlabs/centos-7.2-64-nocm #vagrant box / image /etc
 
 provisioner:
-  name: ansible_playbook #Ansible provisioner
+  name: ansible_playbook
   hosts: test-kitchen
   ansible_verbose: true
   ansible_verbosity: 2
   require_ansible_repo: true
-  require_ansible_omnibus: true
+  #require_ansible_omnibus: true
   require_chef_for_busser: false
 
 
@@ -28,4 +28,4 @@ suites:
   - name: rolename
     verifier:
       patterns:
-        - roles/test/test/integration/spec/rolename_spec.rb
+        - roles/ansible-role-template/test/integration/spec/rolename_spec.rb

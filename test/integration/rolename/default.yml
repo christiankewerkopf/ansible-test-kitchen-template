@@ -1,5 +1,5 @@
 ---
 - name: provisioning
-hosts: test-kitchen
-roles:
-  - rolename
+  hosts: test-kitchen
+  roles:
+    - rolename
